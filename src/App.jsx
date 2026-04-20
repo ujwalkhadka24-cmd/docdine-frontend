@@ -1,7 +1,7 @@
 import { useState, useRef, useCallback } from "react";
 
 // ── API config ──────────────────────────────────────────────
-const API_BASE = "https://api.docdine.com";
+const API_BASE = "https://docdine-api-1.onrender.com";
 
 const api = {
   async upload(file, onProgress) {
